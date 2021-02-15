@@ -6,6 +6,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+/***
+ *  The ViewHolder manages all the widgets or views in the XML layout for each row
+ */
 public class PlanetViewHolder extends RecyclerView.ViewHolder{
 
     TextView textViewPlanetName, textViewPlanetDistance, textViewPlanetDiameter;

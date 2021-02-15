@@ -1,25 +1,24 @@
 package css.planets;
 
 /**
- * Created by cssuser on 2/15/2017.
+ *  Simple data class to hold information on a planet
  */
-
 public class Planet {
     private String name;
     private Double distanceFromSol;
-    private Double diameter;
+    private Integer diameter;
 
-    public Planet(String name, Double distanceFromSol, Double diameter) {
+    public Planet(String name, Double distanceFromSol, Integer diameter) {
         this.name = name;
         this.distanceFromSol = distanceFromSol;
         this.diameter = diameter;
     }
 
-    public Double getDiameter() {
+    public Integer getDiameter() {
         return diameter;
     }
 
-    public void setDiameter(Double diameter) {
+    public void setDiameter(Integer diameter) {
         this.diameter = diameter;
     }
 
